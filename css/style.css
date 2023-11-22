@@ -1,12 +1,12 @@
+/*common style start*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.nav-item {
-    margin-right: 35px;
-}
+
+/*common style end*/
 
 .nav-link {
     font-size: 22px;
@@ -18,14 +18,22 @@
     padding-top: 70px;
 }
 
-.banner-heading h2 {
-    font-size: 32px;
+.banner-heading h2,
+.project-heading h2,
+.footer-title h2{
+    font-size: 40px;
 }
 
 .banner-heading h4 {
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: 25px;
 }
-
+.banner-desc{
+    margin: 25px 0;
+}
+.banner-desc p{
+    font-size: 18px;
+}
 .banner-icon i {
     font-size: 42px;
 }
@@ -38,11 +46,8 @@
     border-radius: 50%;
 }
 /*project-area*/
-.project-heading{
-    font-size: 32px;
-}
 .project-desc p{
-    font-size: 20px;
+    font-size: 22px;
 }
 .project-icon i{
     font-size: 50px;
@@ -53,10 +58,8 @@
 .project-text p{
     font-size: 18px;
 }
+
 /*footer-area*/
-.footer-title h2{
-    font-size: 32px;
-}
 .footer-title p{
     font-size: 20px;
 }
