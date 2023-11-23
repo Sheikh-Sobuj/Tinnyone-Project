@@ -20,7 +20,7 @@
 
 .banner-heading h2,
 .project-heading h2,
-.footer-title h2{
+.footer-title h2 {
     font-size: 40px;
 }
 
@@ -28,54 +28,83 @@
     font-size: 22px;
     margin-top: 25px;
 }
-.banner-desc{
+
+.banner-desc {
     margin: 25px 0;
 }
-.banner-desc p{
+
+.banner-desc p {
     font-size: 18px;
 }
+
 .banner-icon i {
     font-size: 42px;
 }
-.carousel-indicators{
+
+.carousel-indicators {
     bottom: -40px;
 }
-.carousel-indicators [data-bs-target]{
+
+.carousel-indicators [data-bs-target] {
     width: 15px;
     height: 15px;
     border-radius: 50%;
 }
+
 /*project-area*/
-.project-desc p{
+.project-desc p {
     font-size: 22px;
 }
-.project-icon i{
+
+.project-icon i {
     font-size: 50px;
 }
-.project-text h4{
+.project-icon i:hover{
+    transform: scale(.9);
+    transition: .5s;
+}
+
+.project-text h4 {
     font-size: 22px;
 }
-.project-text p{
+
+.project-text p {
     font-size: 18px;
 }
 
 /*footer-area*/
-.footer-title p{
+.footer-title p {
     font-size: 20px;
 }
-form input{
+
+form input {
     height: 50px;
 }
-form button{
+
+form button {
     width: 130px;
 }
-.footer-icon a i{
+
+.footer-icon a i {
     width: 40px;
     height: 40px;
     font-size: 28px;
     font-weight: bold;
     padding: 5px 0 0 7px;
 }
-.list-unstyled li a{
+
+.list-unstyled li a {
     font-size: 16px;
+}
+
+/*---media queries*/
+@media screen and (max-width: 576px) {
+    .project-icon i {
+        margin: 0 auto;
+    }
+
+    .project-text {
+        text-align: center;
+    }
+
 }
