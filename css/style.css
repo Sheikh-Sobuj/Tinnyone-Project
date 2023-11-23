@@ -99,11 +99,12 @@ form button {
 
 /*---media queries*/
 @media screen and (max-width: 576px) {
-    .project-icon i {
-        margin: 0 auto;
-    }
-
-    .project-text {
+   .banner-img,
+   .banner-details,
+   .project-icon i{
+       margin: 0 auto;
+   }
+    .project-text{
         text-align: center;
     }
 
